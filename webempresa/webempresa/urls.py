@@ -28,6 +28,8 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     #PATH DEL PAGE
     path('page/', include('pages.urls')),
+    #PATH DEL CONTACT
+    path('contact/', include('contact.urls')),
     # PATH DEL ADMIN
     path('admin/', admin.site.urls),
 ]
