@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# SECURITY WARNING: La llave es falsa (Borrada posteriormente)
 SECRET_KEY = 'django-insecure-cp&=o(9yzj%z-+#u*9^z6ma#$@gw3xb)1t3$9us2&s328x@mwb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -146,3 +146,10 @@ CKEDITOR_CONFIGS = {
         ]
     }
 }
+
+
+# Email config (Configuración borrada posteriormente, solo de uso de prueba)
+EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+EMAIL_HOST_USER = '6b93cd711b583b'
+EMAIL_HOST_PASSWORD = '4aa23bab42892b'
+EMAIL_PORT = '2525'
